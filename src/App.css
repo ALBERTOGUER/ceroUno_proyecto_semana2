@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body{
+  background: #86AB40;
+}
+#content{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(50,71,80) !important;
+  margin-top: 100px;
+  padding: 0 !important;
+}
+.sections{
+   height: 70vh;
+  width: 100%;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+  /* background: rgb(50,71,80 ) !important; */
+  position: fixed;
+  width: 100vw; 
+  top: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#blogPrincipal{
+  width: 100%;
+  height: 100%;
+  background: url(./components/img/messi1.jpg);
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  padding: 0 200px;
+}
+h1{
+  font-size: 50px;
+}
+#info{
+  font-size: 30px;
+}
+#seccion2{
+  padding: 0 200px;
+  height: auto !important;
+}
+
+.seccionBlog{
+  color: #00C4CC;
+  font-size: 20px;
+  font-weight: 500;
+}
+.seccionBlog:hover{
   color: white;
+  
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
+.seccionBlog2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blogs{
+  width: 30%;
+  
+}
+h2{
+  font-size: 25px;
+}
+.extracto{
+  font-size: 18px;
+  margin: 0;
+}
+span{
+  font-size: 12px;
 }
