@@ -11,3 +11,15 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
+let button = document.getElementById('button');
+let flag= false;
+event()
+function event(){
+    button.addEventListener('click', try_function);
+}
+function try_function(){
+    flag=true;
+  if(flag == true ){
+  document.getElementById('texto').innerText= 'SUSCRITO'
+}
+}

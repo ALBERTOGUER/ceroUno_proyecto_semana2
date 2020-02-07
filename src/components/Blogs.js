@@ -3,7 +3,7 @@ import React from "react";
  
 function Blogs(props){
     return(
-        <div>
+        <div className="mt-5">
             <div>
                 <span className="seccionBlog">
                       {props.seccion}  >
